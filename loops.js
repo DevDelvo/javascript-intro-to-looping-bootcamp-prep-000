@@ -8,3 +8,23 @@ function forLoop(array) {
   }
   return array;
 }
+
+function whileLoop(num) {
+  while (num > 0) {
+    console.log(--num);
+  }
+  return "done";
+}
+
+function doWhileLoop(array) {
+  do {
+    array.pop();
+  } while (array.length > 0 && maybeTrue());
+  return array;
+}
+
+
+
+
+
+
